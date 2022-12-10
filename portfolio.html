@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-   
-    <link href="./css/modern-normalize.css" rel="stylesheet"/>
+    <link href="./css/modern-normalize.css" rel="stylesheet" />
     <link href="./css/styles.css" rel="stylesheet" />
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -33,9 +32,20 @@
             <li><a class="main-controls" href="#">Kontakt</a></li>
           </ul>
         </div>
-        <div>
-          <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          <a class="tel" href="tel:+48111111111">+48 111 111 111</a>
+        <div class="contacts">
+          <a class="mail" href="mailto:info@devstudio.com">
+            <svg class="icon-header" width="16px" height="12px">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>
+            info@devstudio.com</a
+          >
+          <a class="tel" href="tel:+48111111111">
+            <svg class="icon-header" width="16px" height="12px">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>
+
+            +48 111 111 111</a
+          >
         </div>
       </div>
     </header>
@@ -43,20 +53,20 @@
     <main class="">
       <div class="container">
         <section class="section">
-        <!--filters-->
-        <div class="switch-portfolio-mother">
-          <ul class="switch-portfolio">
-            <li class="box "><button class="switch-text" type="button">Wszystkie</button></li>
-            <li class="box"><button class="switch-text" type="button">Strony</button></li>
-            <li class="box"><button class="switch-text" type="button">Aplikacje</button></li>
-            <li class="box"><button class="switch-text" type="button">Dizajn</button></li>
-            <li class="box"><button class="switch-text" type="button">Marketing</button></li>
-          </ul>
-        </div>
-        <!--projects-->
-        
+          <!--filters-->
+          <div class="switch-portfolio-mother">
+            <ul class="switch-portfolio">
+              <li class="box"><button class="switch-text" type="button">Wszystkie</button></li>
+              <li class="box"><button class="switch-text" type="button">Strony</button></li>
+              <li class="box"><button class="switch-text" type="button">Aplikacje</button></li>
+              <li class="box"><button class="switch-text" type="button">Dizajn</button></li>
+              <li class="box"><button class="switch-text" type="button">Marketing</button></li>
+            </ul>
+          </div>
+          <!--projects-->
+
           <div>
-            <ul class="photos-portfolio ">
+            <ul class="photos-portfolio">
               <li class="card-photo-portfolio efect">
                 <img src="images/portfolio/img-1.jpg" alt="laptop" width="370" height="295" />
 
@@ -173,27 +183,52 @@
       </div>
     </main>
 
-    <footer class="backround">
+    <footer class="backround-bottom">
       <div class="container bottom">
-        <a class="logo" href="#">
+        <a class="logo-bottom" href="#">
           <span class="logo-web">Web</span><span class="logo-studio-bottom">Studio</span></a
         >
 
-        <address>
-          <ul class="items-addres">
-            <li>
-              <a class="street" href="https://goo.gl/maps/7jjXGjZ66oPuceHK9" target="_blank"
-                >m. Warszawa, Aleje Jerozolimskie 21</a
-              >
+        <ul class="items-addres">
+          <li>
+            <a class="street" href="https://goo.gl/maps/7jjXGjZ66oPuceHK9" target="_blank"
+              >m. Warszawa, Aleje Jerozolimskie 21</a
+            >
+          </li>
+          <li>
+            <a class="mail-bottom" href="mailto=info@example.com">info@example.com</a>
+          </li>
+          <li>
+            <a class="tel-bottom" href="tel:+48111111111">+48 111 111 111</a>
+          </li>
+        </ul>
+
+        <div class="join-us-box">
+          <span class="join-us">DOLACZ DO NAS</span>
+          <ul class="wrap-social-media-bottom">
+            <li class="icons-ring-bottom">
+              <svg class="icons-join-us" width="20px" hight="20px">
+                <use href="images/icons.svg#icon-instagram-2"></use>
+              </svg>
             </li>
-            <li>
-              <a class="mail-bottom" href="mailto=info@example.com">info@example.com</a>
+            <li class="icons-ring-bottom">
+              <svg class="icons-join-us" width="20px" hight="20px">
+                <use href="images/icons.svg#icon-twitter-1"></use>
+              </svg>
             </li>
-            <li>
-              <a class="tel-bottom" href="tel:+48111111111">+48 111 111 111</a>
+
+            <li class="icons-ring-bottom">
+              <svg class="icons-join-us" width="20px" hight="20px">
+                <use href="images/icons.svg#icon-facebook-1"></use>
+              </svg>
+            </li>
+            <li class="icons-ring-bottom">
+              <svg class="icons-join-us" width="20px" hight="20px">
+                <use href="images/icons.svg#icon-linkedin-1"></use>
+              </svg>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
