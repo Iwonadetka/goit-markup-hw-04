@@ -239,11 +239,12 @@ header {
 
 .backround-second {
   background-color: var(--white-backround-color);
+  padding-bottom: 94px;
 }
 
 .our-team {
   margin-top: 94px;
-  margin-bottom: 94px;
+  
   margin-right: 0;
   margin-left: 0;
 }
@@ -269,7 +270,8 @@ header {
 }
 
 .card-our-team {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
   width: 270px;
   text-align: center;
   background-color: var(--pure-white);
@@ -332,7 +334,7 @@ header {
   line-height: 1.17;
   text-align: center;
   font-size: 36px;
-  margin: 0px;
+  margin-top: 94px;
   
 }
 
@@ -354,6 +356,7 @@ header {
   display:flex;
   justify-content: center;
 }
+
 
 
 
@@ -485,23 +488,34 @@ header {
   width: 574px;
   display: flex;
   list-style-type: none;
-
   justify-content: space-between;
-
   margin-top: 0px;
   padding: 0px;
 }
 
-.switch-items {
+.box { border-radius: 4%;}
+
+.box:hover,
+.box:focus { 
+  box-sizing: border-box;
+  border: #000000 solid 1px;
+  border-radius: 4%;
+  offset: 0px 4px;
+  stroke: var(--black-color solid 1px);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  
+}
+
+.switch-text {
   background-color: var(--white-backround-color);
   padding: 6px 22px 6px 22px;
-  margin-right: 8px;
+  
   font-weight: 500;
   border-style: none;
 }
 
-.switch-items:hover,
-.switch-items:focus {
+.switch-text:hover,
+.switch-text:focus {
   color: var(--pure-white);
   background-color: var(--blue-color);
 }
@@ -512,7 +526,6 @@ header {
   flex-wrap: wrap;
   justify-content: space-between;
   list-style-type: none;
-
   padding: 0px;
 }
 
@@ -521,6 +534,11 @@ header {
   margin-bottom: 30px;
   border: 1px solid var(--border-cards);
   padding-bottom: 20px;
+}
+
+.efect:hover,
+.efect:focus {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .topic-photo-portfolio {
