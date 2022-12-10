@@ -121,7 +121,7 @@ header {
   color:var(--blue-color)
 }
 
-.contacts {
+.contacts a {
   fill: currentColor;
 }
 
@@ -348,6 +348,11 @@ header {
   justify-content: space-between;
 }
 
+.costumers:hover,
+.costumers:focus {
+  fil: var(--blue-color);
+}
+
 .logo-items {
   width: 170px;
   height: 92px ;
@@ -355,9 +360,22 @@ header {
   border-radius: 8px;
   display:flex;
   justify-content: center;
+  
 }
 
+.logo-icon {
+  fill: var(--social-icons);
+}
 
+.logo-icon:hover,
+.logo-icon:focus{
+  fill: var(--blue-color);
+}
+
+.logo-items:hover,
+.logo-items:focus{
+  border-color: var(--blue-color);
+}
 
 
 
@@ -462,21 +480,24 @@ header {
   margin-left: 0;
 }
 
-.icons-ring {
+.icons-ring-bottom {
   width: 44px;
   height: 44px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
- 
+ background-color: rgba(255, 255, 255, 0.1);
 
-  transform: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ 
 }
 
 .icons-join-us { fill: var(--pure-white);}
 
+.icons-ring-bottom:hover,
+.icons-ring-bottom:focus {
+  background-color: var(--blue-color);
+}
 
 .switch-portfolio-mother {
   display: flex;
