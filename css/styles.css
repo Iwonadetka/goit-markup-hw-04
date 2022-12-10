@@ -9,6 +9,8 @@
   --transparent-font: rgba(255, 255, 255, 0.6);
   --border-cards: #eeeeee;
   --border-header: #ececec;
+  --img-background: #2f303a (0.4);
+  --social-icons: #afb1b8;
 }
 
 body {
@@ -25,7 +27,6 @@ body {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
-  
 }
 
 .section {
@@ -33,7 +34,9 @@ body {
   padding-bottom: 94px;
 }
 .backround {
-  background-color: var(--dark-gray);
+  background-image: url(/images/background/img-topic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .flex-container {
@@ -100,10 +103,7 @@ header {
   padding: 0;
   margin-right: 50px;
 }
-.mail:hover,
-.mail:focus {
-  color: var(--blue-color);
-}
+
 .tel {
   color: var(--gray-color);
   text-decoration: none;
@@ -116,8 +116,25 @@ header {
   color: var(--blue-color);
 }
 
+.mail:hover,
+.mail:focus {
+  color:var(--blue-color)
+}
+
+.contacts {
+  fill: currentColor;
+}
+
+.contacts:hover,
+.contacts:focus {
+  fill: var(--blue-color);
+}
+
+.icon-header {
+  margin-right: 10px;
+}
+
 .hero {
-  background-color: var(--dark-gray);
   text-align: center;
   padding-top: 200px;
   margin: auto;
@@ -159,10 +176,10 @@ header {
 }
 .lorem-ipsum-together {
   width: 270;
-
   text-align: left;
   box-sizing: content-box;
 }
+
 .lorem {
   color: var(--main-color);
   font-weight: 700;
@@ -182,6 +199,18 @@ header {
   margin-bottom: 0px;
   display: flex;
   justify-content: space-evenly;
+}
+
+.icon-lorem {
+  display: block;
+}
+
+.container-icon {
+  width: 270px;
+  height: 120px;
+  padding-top: 25px;
+  padding-left: 100px;
+  margin-bottom: 30px;
 }
 
 .competition-topic {
@@ -245,7 +274,6 @@ header {
   text-align: center;
   background-color: var(--pure-white);
   text-align: center;
-  padding-bottom: 30px;
 }
 
 .john-doe-name {
@@ -264,12 +292,81 @@ header {
   line-height: 1.18;
   width: 87px;
 }
+.icons-our-team {
+  fill: var(--social-icons);
+}
+ .icons-our-team:hover,
+ .icons-our-team:focus 
+  {fill: var(--pure-white);}
+ 
+
+
+.wrap-social-media {
+  width: 206px;
+  height: 44px;
+  margin: 16px 32px 30px;
+  justify-content: center;
+  display: flex;
+  padding: 0;
+}
+
+.icons-ring {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icons-ring:hover,
+.icons-ring:focus {
+  background-color: var(--blue-color);
+  fill: var(--pure-white);
+}
+
+
+.costumers-topic {color: var(--main-color);
+  line-height: 1.17;
+  text-align: center;
+  font-size: 36px;
+  margin: 0px;
+  
+}
+
+
+.costumers { 
+  display: flex;
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 50px;
+  margin-bottom: 92px;
+  justify-content: space-between;
+}
+
+.logo-items {
+  width: 170px;
+  height: 92px ;
+  border: 1px solid var(--social-icons);
+  border-radius: 8px;
+  display:flex;
+  justify-content: center;
+}
+
+
+
 
 /* footer*/
+
+.backround-bottom { background-color: var(--dark-gray);
+;}
 
 .bottom {
   padding-top: 60px;
   padding-bottom: 60px;
+  display: flex;
 }
 
 .logo-bottom {
@@ -277,6 +374,7 @@ header {
   font-size: 26px;
   font-family: raleway;
   font-weight: 700;
+  width: 0px;
 }
 
 .logo-bottom:hover,
@@ -284,20 +382,14 @@ header {
   background-color: var(--blue-color);
 }
 
-.bottom-contact {
-  background-color: var(--dark-gray);
 
-  padding-bottom: 60px;
-  padding-top: 60px;
-
-  align-items: center;
-}
 .items-addres {
   margin: 0;
   list-style-type: none;
   padding-left: 0px;
   font-style: normal;
   margin-top: 20px;
+  padding-top: 20px;
 }
 .street {
   color: var(--pure-white);
@@ -334,6 +426,55 @@ header {
 .logo-studio-bottom {
   color: var(--pure-white);
 }
+
+.join-us-box {
+  display: flex;
+  display: block;
+  justify-content: center;
+  width: 206px;
+  margin-left: 70px;
+  padding-top: 12px;
+}
+
+.join-us
+{ color: var(--pure-white);
+  width: 113px;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  font-weight: 700;
+
+}
+
+.wrap-social-media-bottom {
+  width: 206px;
+  height: 44px;
+  margin: 16px 32px 30px;
+  justify-content:space-between;
+  align-items: center;
+  display: flex;
+  margin-top: 20px;
+  padding: 0; 
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.icons-ring {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+
+  transform: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icons-join-us { fill: var(--pure-white);}
+
+
 .switch-portfolio-mother {
   display: flex;
   justify-content: center;

@@ -5,10 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    
-    <link href="./css/modern-normalize.css" rel="stylesheet"/>
+    <link href="./css/modern-normalize.css" rel="stylesheet" />
     <link href="./css/styles.css" rel="stylesheet" />
-    
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -34,9 +33,20 @@
           </ul>
         </div>
 
-        <div>
-          <a class="mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          <a class="tel" href="tel:+48111111111">+48 111 111 111</a>
+        <div class="contacts">
+          <a class="mail" href="mailto:info@devstudio.com">
+            <svg class="icon-header" width="16px" height="12px">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>
+            info@devstudio.com</a
+          >
+          <a class="tel" href="tel:+48111111111">
+            <svg class="icon-header" width="16px" height="12px">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>
+
+            +48 111 111 111</a
+          >
         </div>
       </div>
     </header>
@@ -57,6 +67,12 @@
         <div class="container">
           <ul class="lorem-ipsum container">
             <li class="lorem-ipsum-together">
+              <div class="container-icon">
+                <svg class="icon-lorem" width="70px" height="70px">
+                  <use href="images/icons.svg#icon-antenna-1"></use>
+                </svg>
+              </div>
+
               <span class="lorem"> LOREM IPSUM </span>
               <p class="ipsum">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
@@ -65,6 +81,12 @@
             </li>
 
             <li class="lorem-ipsum-together">
+              <div class="container-icon">
+                <svg class="icon-lorem" width="70px" height="70px">
+                  <use href="images/icons.svg#icon-clock-1"></use>
+                </svg>
+              </div>
+
               <span class="lorem"> LOREM IPSUM </span>
               <p class="ipsum">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
@@ -72,6 +94,12 @@
               </p>
             </li>
             <li class="lorem-ipsum-together">
+              <div class="container-icon">
+                <svg class="icon-lorem" width="70px" height="70px">
+                  <use href="images/icons.svg#icon-diagram-1"></use>
+                </svg>
+              </div>
+
               <span class="lorem"> LOREM IPSUM </span>
               <p class="ipsum">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
@@ -79,6 +107,12 @@
               </p>
             </li>
             <li class="lorem-ipsum-together">
+              <div class="container-icon">
+                <svg class="icon-lorem" width="70px" height="70px">
+                  <use href="images/icons.svg#icon-astronaut-1"></use>
+                </svg>
+              </div>
+
               <span class="lorem"> LOREM IPSUM </span>
               <p class="ipsum">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non
@@ -133,10 +167,34 @@
                   width="270"
                   height="260"
                 />
-
                 <h3 class="john-doe-name">John Doe</h3>
                 <span class="john-profession">Product Designer</span>
+
+                <ul class="wrap-social-media">
+                  <li class="icons-ring">
+                    <svg class="icons-our-team" width="20px" hight="20px">
+                      <use href="images/icons.svg#icon-instagram-2"></use>
+                    </svg>
+                  </li>
+                  <li class="icons-ring">
+                    <svg class="icons-our-team" width="20px" hight="20px">
+                      <use href="images/icons.svg#icon-twitter-1"></use>
+                    </svg>
+                  </li>
+
+                  <li class="icons-ring">
+                    <svg class="icons-our-team" width="20px" hight="20px">
+                      <use href="images/icons.svg#icon-facebook-1"></use>
+                    </svg>
+                  </li>
+                  <li class="icons-ring">
+                    <svg class="icons-our-team" width="20px" hight="20px">
+                      <use href="images/icons.svg#icon-linkedin-1"></use>
+                    </svg>
+                  </li>
+                </ul>
               </li>
+
               <li class="card-our-team">
                 <img
                   src="images/our_team/john_doe_2.jpg"
@@ -147,6 +205,30 @@
 
                 <h3 class="john-doe-name">John Doe</h3>
                 <span class="john-profession">Frontend Developer</span>
+
+                <ul class="wrap-social-media">
+                  <li class="icons-ring">
+                    <svg class="icons-our-team" width="20px" hight="20px">
+                      <use href="images/icons.svg#icon-instagram-2"></use>
+                    </svg>
+                  </li>
+                  <li class="icons-ring">
+                    <svg class="icons-our-team" width="20px" hight="20px">
+                      <use href="images/icons.svg#icon-twitter-1"></use>
+                    </svg>
+                  </li>
+
+                  <li class="icons-ring">
+                    <svg class="icons-our-team" width="20px" hight="20px">
+                      <use href="images/icons.svg#icon-facebook-1"></use>
+                    </svg>
+                  </li>
+                  <li class="icons-ring">
+                    <svg class="icons-our-team" width="20px" hight="20px">
+                      <use href="images/icons.svg#icon-linkedin-1"></use>
+                    </svg>
+                  </li>
+                </ul>
               </li>
 
               <li class="card-our-team">
@@ -159,6 +241,29 @@
 
                 <h3 class="john-doe-name">John Doe</h3>
                 <span class="john-profession">Marketing</span>
+                <ul class="wrap-social-media">
+                  <li class="icons-ring">
+                    <svg class="icons-our-team" width="20px" hight="20px">
+                      <use href="images/icons.svg#icon-instagram-2"></use>
+                    </svg>
+                  </li>
+                  <li class="icons-ring">
+                    <svg class="icons-our-team" width="20px" hight="20px">
+                      <use href="images/icons.svg#icon-twitter-1"></use>
+                    </svg>
+                  </li>
+
+                  <li class="icons-ring">
+                    <svg class="icons-our-team" width="20px" hight="20px">
+                      <use href="images/icons.svg#icon-facebook-1"></use>
+                    </svg>
+                  </li>
+                  <li class="icons-ring">
+                    <svg class="icons-our-team" width="20px" hight="20px">
+                      <use href="images/icons.svg#icon-linkedin-1"></use>
+                    </svg>
+                  </li>
+                </ul>
               </li>
 
               <li class="card-our-team">
@@ -171,19 +276,83 @@
 
                 <h3 class="john-doe-name">John Doe</h3>
                 <span class="john-profession">UI Designer</span>
+                <ul class="wrap-social-media">
+                  <li class="icons-ring">
+                    <svg class="icons-our-team" width="20px" hight="20px">
+                      <use href="images/icons.svg#icon-instagram-2"></use>
+                    </svg>
+                  </li>
+                  <li class="icons-ring">
+                    <svg class="icons-our-team" width="20px" hight="20px">
+                      <use href="images/icons.svg#icon-twitter-1"></use>
+                    </svg>
+                  </li>
+
+                  <li class="icons-ring">
+                    <svg class="icons-our-team" width="20px" hight="20px">
+                      <use href="images/icons.svg#icon-facebook-1"></use>
+                    </svg>
+                  </li>
+                  <li class="icons-ring">
+                    <svg class="icons-our-team" width="20px" hight="20px">
+                      <use href="images/icons.svg#icon-linkedin-1"></use>
+                    </svg>
+                  </li>
+                </ul>
               </li>
             </ul>
           </div>
         </div>
       </section>
+
+      <!--our costumers-->
+      <div class="container">
+        <h2 class="costumers-topic">Nasi klienci</h2>
+
+        <ul class="costumers">
+          <li class="logo-items">
+            <svg class="logo" width="106px" hight="60.04px">
+              <use href="images/icons.svg#icon-Logo"></use>
+            </svg>
+          </li>
+
+          <li class="logo-items">
+            <svg class="logo" width="106px" hight="60.04px">
+              <use href="images/icons.svg#icon-Logo-2"></use>
+            </svg>
+          </li>
+
+          <li class="logo-items">
+            <svg class="logo" width="106px" hight="60.04px">
+              <use href="images/icons.svg#icon-Logo-3"></use>
+            </svg>
+          </li>
+
+          <li class="logo-items">
+            <svg class="logo" width="106px" hight="60.04px">
+              <use href="images/icons.svg#icon-Logo-4"></use>
+            </svg>
+          </li>
+
+          <li class="logo-items">
+            <svg class="logo" width="106px" hight="60.04px">
+              <use href="images/icons.svg#icon-Logo-5"></use>
+            </svg>
+          </li>
+          <li class="logo-items">
+            <svg class="logo" width="106px" hight="60.04px">
+              <use href="images/icons.svg#icon-Logo-6"></use>
+            </svg>
+          </li>
+        </ul>
+      </div>
     </main>
 
-    <footer class="backround">
+    <footer class="backround-bottom">
       <div class="container bottom">
         <a class="logo-bottom" href="#">
           <span class="logo-web">Web</span><span class="logo-studio-bottom">Studio</span></a
         >
-
         <ul class="items-addres">
           <li>
             <a class="street" href="https://goo.gl/maps/7jjXGjZ66oPuceHK9" target="_blank"
@@ -197,6 +366,36 @@
             <a class="tel-bottom" href="tel:+48111111111">+48 111 111 111</a>
           </li>
         </ul>
+          <div class="join-us-box">
+            <span class="join-us">DOLACZ DO NAS</span>
+            <ul class="wrap-social-media-bottom">
+                  <li class="icons-ring">
+                    <svg class="icons-join-us" width="20px" hight="20px">
+                      <use href="images/icons.svg#icon-instagram-2"></use>
+                    </svg>
+                  </li>
+                  <li class="icons-ring">
+                    <svg class="icons-join-us" width="20px" hight="20px">
+                      <use href="images/icons.svg#icon-twitter-1"></use>
+                    </svg>
+                  </li>
+
+                  <li class="icons-ring">
+                    <svg class="icons-join-us" width="20px" hight="20px">
+                      <use href="images/icons.svg#icon-facebook-1"></use>
+                    </svg>
+                  </li>
+                  <li class="icons-ring">
+                    <svg class="icons-join-us" width="20px" hight="20px">
+                      <use href="images/icons.svg#icon-linkedin-1"></use>
+                    </svg>
+                  </li>
+                </ul>
+
+
+
+
+          </div>
       </div>
     </footer>
   </body>
