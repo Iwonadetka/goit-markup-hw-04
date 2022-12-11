@@ -140,8 +140,8 @@ header {
   margin: auto;
   box-sizing: border-box;
   background-image: linear-gradient(to bottom,var(--img-background), 
-  var(--img-backgrond)),
-  url("./images/background/img-topic.jpg");
+  var(--img-background)),
+  url("../images/background/img-topic.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
