@@ -11,6 +11,7 @@
   --border-header: #ececec;
   --img-background: #2f303a (0.4);
   --social-icons: #afb1b8;
+  
 }
 
 body {
@@ -33,12 +34,9 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-.backround {
-  background-image: url(/images/background/img-topic.jpg);
-  background-image: url(/images/background/img-topic.jpg),
-    linear-gradient(to right, rgba(0, 0, 0, 0.2) rgba (0, 0, 0, 0.2));
-  background-repeat: no-repeat;
-  background-size: cover;
+.backround { background-color: var(--dark-gray); 
+  
+  
 }
 
 .flex-container {
@@ -141,6 +139,11 @@ header {
   padding-top: 200px;
   margin: auto;
   box-sizing: border-box;
+  background-image: linear-gradient(to bottom,var(--img-background), 
+  var(--img-backgrond)),
+  url("./images/background/img-topic.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .topic {
