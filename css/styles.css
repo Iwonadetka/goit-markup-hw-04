@@ -35,6 +35,10 @@ body {
 }
 .backround {
   background-color: var(--dark-gray);
+    background-image: linear-gradient(to bottom, var(--img-background), var(--img-background)),
+    url('../images/background/img-topic.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .flex-container {
@@ -137,10 +141,7 @@ body {
   padding-top: 200px;
   margin: auto;
   box-sizing: border-box;
-  background-image: linear-gradient(to bottom, var(--img-background), var(--img-background)),
-    url('../images/background/img-topic.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
+  
 }
 
 .topic {
