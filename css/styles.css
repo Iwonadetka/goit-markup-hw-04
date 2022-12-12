@@ -162,6 +162,9 @@ body {
   margin-bottom: 210px;
   padding: 10px 41px 10px 42px;
   width: 200px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 1);
+  border: 1px solid var(--black-color);
+  border-radius: 4px;
 }
 
 .switch:hover,
@@ -297,13 +300,6 @@ body {
   line-height: 1.18;
   width: 87px;
 }
-.icons-our-team {
-  fill: var(--social-icons);
-}
-.icons-our-team:hover,
-.icons-our-team:focus {
-  fill: var(--pure-white);
-}
 
 .wrap-social-media {
   width: 206px;
@@ -324,13 +320,22 @@ body {
   transform: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
+    color: var(--social-icons);
 }
 
 .icons-ring:hover,
 .icons-ring:focus {
   background-color: var(--blue-color);
-  fill: var(--pure-white);
+  color: var(--pure-white);
+  
 }
+
+.icons-our-team {
+  fill: currentColor;
+}
+
+
+
 
 .costumers-topic {
   color: var(--main-color);
@@ -349,12 +354,8 @@ body {
   justify-content: space-between;
 }
 
-.costumers:hover,
-.costumers:focus {
-  fil: var(--blue-color);
-}
-
-.logo-items {
+.logo-icon { color
+  : var(--social-icons);
   width: 170px;
   height: 92px;
   border: 1px solid var(--social-icons);
@@ -363,21 +364,34 @@ body {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-}
+  color: var(--social-icons);
+} 
 
-.logo-icon {
-  fill: var(--social-icons);
-}
+.logo-icon-cover { fill: currentColor;}
+
+
+
+
+
 
 .logo-icon:hover,
-.logo-icon:focus {
-  fill: var(--blue-color);
-}
-
-.logo-items:hover,
-.logo-items:focus {
+.logo-icon:focus { 
+  color: var(--blue-color);
   border-color: var(--blue-color);
 }
+
+
+.logo-icon-cover:hover,
+.logo-icon-cover:focus {
+  color: var(--blue-color);
+}
+
+
+
+
+
+
+
 
 /* footer*/
 
