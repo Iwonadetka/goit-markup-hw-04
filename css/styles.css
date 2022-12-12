@@ -35,7 +35,7 @@ body {
 }
 .backround {
   background-color: var(--dark-gray);
-    background-image: linear-gradient(to bottom, var(--img-background), var(--img-background)),
+  background-image: linear-gradient(to bottom, var(--img-background), var(--img-background)),
     url('../images/background/img-topic.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -141,7 +141,6 @@ body {
   padding-top: 200px;
   margin: auto;
   box-sizing: border-box;
-  
 }
 
 .topic {
@@ -319,23 +318,19 @@ body {
   align-items: center;
   transform: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    cursor: pointer;
-    color: var(--social-icons);
+  cursor: pointer;
+  color: var(--social-icons);
 }
 
 .icons-ring:hover,
 .icons-ring:focus {
   background-color: var(--blue-color);
   color: var(--pure-white);
-  
 }
 
 .icons-our-team {
   fill: currentColor;
 }
-
-
-
 
 .costumers-topic {
   color: var(--main-color);
@@ -354,8 +349,8 @@ body {
   justify-content: space-between;
 }
 
-.logo-icon { color
-  : var(--social-icons);
+.logo-icon {
+  color: var(--social-icons);
   width: 170px;
   height: 92px;
   border: 1px solid var(--social-icons);
@@ -365,33 +360,22 @@ body {
   align-items: center;
   cursor: pointer;
   color: var(--social-icons);
-} 
+}
 
-.logo-icon-cover { fill: currentColor;}
-
-
-
-
-
+.logo-icon-cover {
+  fill: currentColor;
+}
 
 .logo-icon:hover,
-.logo-icon:focus { 
+.logo-icon:focus {
   color: var(--blue-color);
   border-color: var(--blue-color);
 }
-
 
 .logo-icon-cover:hover,
 .logo-icon-cover:focus {
   color: var(--blue-color);
 }
-
-
-
-
-
-
-
 
 /* footer*/
 
@@ -527,7 +511,6 @@ body {
   margin-top: 0px;
   padding: 0px;
   cursor: pointer;
-  
 }
 
 .box {
@@ -545,7 +528,6 @@ body {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   cursor: pointer;
 }
-
 
 .switch-text {
   background-color: var(--white-backround-color);
@@ -581,7 +563,6 @@ body {
 .efect:hover,
 .efect:focus {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-
 }
 
 .topic-photo-portfolio {
